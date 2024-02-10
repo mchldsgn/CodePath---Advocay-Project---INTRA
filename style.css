@@ -68,7 +68,7 @@ a, a:hover, a:focus, a:active {
   }
   
   .navbar {
-      height: 10%;
+      /* height: 10%; */
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -87,44 +87,29 @@ a, a:hover, a:focus, a:active {
       cursor: pointer;
       padding: 0 15px 0 15px;
   }
-  
-/* ul {
-    margin: 15%;
-} */
-nav {
-      flex: 1;
-      text-align: right;
+
+
+ul {
+  display: flex;
+  list-style: none;
 }
 
-nav ul li {
-      list-style: none;
-      display: inline-block;
-      margin-left: 60px;
-      
-}
 
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
  
   
   /* NAV BLOCK BUTTONS*/
   
-  .abt-span {
-    background-color: #6EC3DD;
-  }
-  
   .btn-abt {
     background-color: #6EC3DD;
     border: none;
     padding: 25px 45px;
-    margin: -35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
   }
 
 .btn-abt:hover {
@@ -136,10 +121,6 @@ nav ul li a {
     background-color: #F0AC45;
     border: none;
     padding: 25px 25px;
-    margin: -30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
   }
   
   .btn-rscn:hover {
@@ -151,10 +132,6 @@ nav ul li a {
     background-color: #A5CD35;
     border: none;
     padding: 25px 45px;
-    margin: -35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
   }
   
   .btn-join:hover {
@@ -166,10 +143,6 @@ nav ul li a {
     background-color: #A78ACC;
     border: none;
     padding: 25px 45px;
-    margin: -30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
   }
   
   .btn-news:hover {
@@ -181,10 +154,6 @@ nav ul li a {
     background-color: #C83333;
     border: none;
     padding: 25px 25px;
-    margin: -25px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
   }
   
   .btn-sppt:hover {
@@ -197,6 +166,13 @@ nav ul li a {
   
   
   /*HEADER*/
+
+  .bridge {
+    width: 40%;
+    border:15px solid #6EC3DD;
+    border-radius: 0px;
+  }
+
   .header {
     position: relative;
       display: flex;
